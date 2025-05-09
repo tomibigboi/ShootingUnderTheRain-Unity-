@@ -45,6 +45,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 719f49509b662b84487bdc692a88554f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MaxDistance: 10
+  lineDisplayTime: 0.1
+  targetTag: canBeAttacked
+  fireRate: 0.1
+  direction: {x: 0, y: 0}
 --- !u!120 &4167218064328813974
 LineRenderer:
   serializedVersion: 2
@@ -90,9 +95,7 @@ LineRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Positions:
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
+  m_Positions: []
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1

@@ -15,7 +15,7 @@ public class PlayerScript : MonoBehaviour
     private bool isDashing;
     private bool isJumping;
     private bool isAir;
-   
+    public float health = 100;
     
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -24,7 +24,6 @@ public class PlayerScript : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         lastDirection.x = 1; 
         isJumping = false;
-
     }
 
     // Update is called once per frame
